@@ -6,3 +6,6 @@ clean:
 
 run:
 	uv run main.py
+
+scan: 
+	uv run document_scanner.py
